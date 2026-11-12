@@ -1,0 +1,16 @@
+dataset,field,n_rows,valid_non_missing,unique_valid_values
+MAMI accession metadata,Maternal age,1128,0,0
+MAMI accession metadata,Postpartum sampling days,1128,770,28
+MAMI accession metadata,Gestational status,1128,45,1
+MAMI accession metadata,Gestational age,1128,0,0
+MAMI accession metadata,Perinatal stage,1128,0,0
+MAMI accession metadata,Mode of delivery,1128,101,2
+MAMI accession metadata,Sex,1128,1128,1
+MAMI accession metadata,Country,1128,1128,6
+MAMI accession metadata,Study,1128,1128,7
+PRIME breast-milk subset,Host_Age,176,0,0
+PRIME breast-milk subset,Host_BMI,176,0,0
+PRIME breast-milk subset,Antibiotics_Use,176,0,0
+PRIME breast-milk subset,Antibiotic_Status,176,0,0
+PRIME breast-milk subset,Phenotype,176,176,1
+PRIME breast-milk subset,Participant_Id,176,176,176

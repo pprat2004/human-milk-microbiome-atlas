@@ -1,0 +1,170 @@
+{
+  "mami_accession": {
+    "rows": 1128,
+    "columns": 14,
+    "unique_runs": 1128,
+    "duplicate_runs": 0,
+    "studies": 7,
+    "countries": {
+      "Nigeria": 566,
+      "USA": 302,
+      "India": 159,
+      "China": 51,
+      "Indonesia": 45,
+      "Italy": 5
+    },
+    "study_counts": {
+      "Grant-BeurmannS_2022": 566,
+      "RamaniS_2018": 159,
+      "LundgrenSN_2018": 154,
+      "WilliamsJE_2019": 148,
+      "WuY_2021": 51,
+      "KhineWWT_2020": 45,
+      "AsnicarF_2017": 5
+    },
+    "study_country_cross_tab": {
+      "China": {
+        "AsnicarF_2017": 0,
+        "Grant-BeurmannS_2022": 0,
+        "KhineWWT_2020": 0,
+        "LundgrenSN_2018": 0,
+        "RamaniS_2018": 0,
+        "WilliamsJE_2019": 0,
+        "WuY_2021": 51
+      },
+      "India": {
+        "AsnicarF_2017": 0,
+        "Grant-BeurmannS_2022": 0,
+        "KhineWWT_2020": 0,
+        "LundgrenSN_2018": 0,
+        "RamaniS_2018": 159,
+        "WilliamsJE_2019": 0,
+        "WuY_2021": 0
+      },
+      "Indonesia": {
+        "AsnicarF_2017": 0,
+        "Grant-BeurmannS_2022": 0,
+        "KhineWWT_2020": 45,
+        "LundgrenSN_2018": 0,
+        "RamaniS_2018": 0,
+        "WilliamsJE_2019": 0,
+        "WuY_2021": 0
+      },
+      "Italy": {
+        "AsnicarF_2017": 5,
+        "Grant-BeurmannS_2022": 0,
+        "KhineWWT_2020": 0,
+        "LundgrenSN_2018": 0,
+        "RamaniS_2018": 0,
+        "WilliamsJE_2019": 0,
+        "WuY_2021": 0
+      },
+      "Nigeria": {
+        "AsnicarF_2017": 0,
+        "Grant-BeurmannS_2022": 566,
+        "KhineWWT_2020": 0,
+        "LundgrenSN_2018": 0,
+        "RamaniS_2018": 0,
+        "WilliamsJE_2019": 0,
+        "WuY_2021": 0
+      },
+      "USA": {
+        "AsnicarF_2017": 0,
+        "Grant-BeurmannS_2022": 0,
+        "KhineWWT_2020": 0,
+        "LundgrenSN_2018": 154,
+        "RamaniS_2018": 0,
+        "WilliamsJE_2019": 148,
+        "WuY_2021": 0
+      }
+    },
+    "metadata_abundance_join": {
+      "both": 1128,
+      "left_only": 0,
+      "right_only": 0
+    }
+  },
+  "mami_abundance": {
+    "rows": 1128,
+    "columns": 583,
+    "taxa_features": 580,
+    "unique_samples": 1128,
+    "duplicate_samples": 0,
+    "unique_subject_field": 1,
+    "subject_values": {
+      "mother": 1128
+    },
+    "body_site": {
+      "breast milk": 1128
+    },
+    "features_ever_nonzero": 346,
+    "features_all_zero": 234,
+    "zero_cell_fraction": 0.9621010638297872,
+    "negative_values": 0,
+    "missing_numeric_cells": 0,
+    "row_sum_min": 0.673430628,
+    "row_sum_median": 0.999999999,
+    "row_sum_max": 1.0000001470000002,
+    "rows_sum_lt_0_95": 2,
+    "rows_sum_0_95_to_0_99": 42,
+    "rows_sum_ge_0_99": 1084,
+    "non_bacterial_or_host_marker_columns": [
+      "Candidatus_Nucleicultrix",
+      "Chloroplast",
+      "Mammalia",
+      "Candidatus_Saccharimonas",
+      "Candidatus_Soleaferrea",
+      "Candidatus_Stoquefichus",
+      "Mitochondria",
+      "Candidatus_Aquiluna",
+      "Candidatus_Electrothrix",
+      "Candidatus_Bacilloplasma",
+      "Candidatus_Vestibaculum",
+      "Candida",
+      "Saccharomyces",
+      "Blastocystis",
+      "Cryptosporidium",
+      "Aspergillus",
+      "Entamoeba",
+      "Giardia"
+    ]
+  },
+  "prime_breast_milk": {
+    "rows": 176,
+    "unique_runs": 176,
+    "projects": [
+      {
+        "Project_name": "BRFAR-US-2025",
+        "BioProject": "PRJNA1175032",
+        "Country": "America (U.S.)",
+        "Variable_Region": "V4",
+        "samples": 149
+      },
+      {
+        "Project_name": "MILKM-RU-2024",
+        "BioProject": "PRJNA1184131",
+        "Country": "France",
+        "Variable_Region": "V3-V4",
+        "samples": 27
+      }
+    ],
+    "country_counts": {
+      "America (U.S.)": 149,
+      "France": 27
+    },
+    "overlap_runs_with_mami": 0,
+    "host_age_nonmissing": 0,
+    "bmi_nonmissing": 0,
+    "antibiotics_use_nonmissing": 0,
+    "prime_abundance_matrix_provided": false
+  },
+  "important_interpretation": [
+    "MAMI's subject field in the abundance matrix is a single constant label 'mother'; it is not a participant identifier.",
+    "MAMI abundance and accession files match one-to-one by Run/sample for all 1,128 rows.",
+    "MAMI country is strongly tied to study; avoid interpreting country differences as causal or using random sample-level train/test splits.",
+    "PRIME breast-milk records are 176 samples from two studies/projects, with project and country perfectly confounded in the supplied metadata.",
+    "The supplied PRIME files are metadata exports only; no PRIME abundance matrix is included.",
+    "The MAMI abundance matrix appears to contain relative abundance proportions for most samples; row totals need an explicit quality-control threshold and sensitivity analysis.",
+    "Feature labels include host/organellar and non-bacterial markers; taxonomy filtering must be reviewed before bacterial-only analyses."
+  ]
+}

@@ -1,0 +1,60 @@
+[
+  {
+    "question": "What is known about geographic variation in the human milk microbiome across countries?",
+    "relevant_doc_ids": [
+      "D01",
+      "D06"
+    ]
+  },
+  {
+    "question": "How can intrapartum antibiotics and breastfeeding exclusivity affect milk microbiome composition?",
+    "relevant_doc_ids": [
+      "D02",
+      "D06"
+    ]
+  },
+  {
+    "question": "Why are negative controls important for human milk microbiome sequencing?",
+    "relevant_doc_ids": [
+      "D03",
+      "D04",
+      "D05"
+    ]
+  },
+  {
+    "question": "Which DNA extraction methods were reported to have low contamination in human milk samples?",
+    "relevant_doc_ids": [
+      "D03"
+    ]
+  },
+  {
+    "question": "What is the evidence linking exclusive breastfeeding to infant gut microbiome maturation?",
+    "relevant_doc_ids": [
+      "D07",
+      "D08"
+    ]
+  },
+  {
+    "question": "What are the main limitations of our current MAMI and PRIME data for clinical machine learning?",
+    "relevant_doc_ids": [
+      "P01"
+    ]
+  },
+  {
+    "question": "What is the difference between relative abundance and absolute microbial load in interpreting microbiome results?",
+    "relevant_doc_ids": [
+      "D03",
+      "D04",
+      "P01"
+    ]
+  },
+  {
+    "question": "Can we conclude that a bacterial genus found in MAMI is a contaminant based only on its name?",
+    "relevant_doc_ids": [
+      "D03",
+      "D04",
+      "D05",
+      "P01"
+    ]
+  }
+]

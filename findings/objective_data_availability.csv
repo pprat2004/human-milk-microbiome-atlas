@@ -1,0 +1,16 @@
+Research objective,Required data,Source evidence so far,Feasibility status,What remains to verify
+Milk sample cohort description,"Sample/run IDs, study IDs, body site","MAMI accession resource has 1,128 data rows and explicit breast-milk labels",Partially supported,Download abundance file; validate unique IDs and sample-to-feature alignment
+Geographical variation,"Country, ideally city, study, sample abundance",MAMI breast-milk accession metadata includes Country and City; India-labelled rows are visible,Partially supported,Full country counts; ensure multiple independent studies per country; audit PRIME milk subset
+Maternal age association,Maternal age linked to sample,Maternal age column exists in MAMI file; visible records include blanks,Partially supported,Measure completeness and usable sample count
+BMI association,BMI,Not established in inspected MAMI accession columns,Unsupported pending further metadata,Inspect linked study supplements / PRIME metadata
+Delivery-mode association,Mode of delivery,MAMI field exists; visible records often marked unknown,Partially supported,Missingness and per-study coverage
+Antibiotic exposure,Antibiotic use/exposure,Not present in inspected MAMI accession header,Unsupported pending further metadata,Inspect linked study metadata and supplements
+Gestational age / status,Gestational age and status,Both columns exist in MAMI; visible records frequently blank/unknown,Partially supported,Quantify non-missing values
+Lactation/postpartum timing,Sampling days since birth,MAMI has Sampling days (since birth); many visible values,Supported in principle,"Check missingness, repeated measures and unit/definition consistency"
+Feeding / breastfeeding status,Feeding label,Not present in inspected MAMI accession header,Unsupported pending further metadata,Check original publications and study-level supplements
+Alpha/beta diversity,Abundance matrix with consistent sample IDs,MAMI provides a dedicated breast-milk abundance CSV; PRIME provides observed and relative abundance tables,Partially supported,"Acquire files; inspect zeros, counts, feature taxonomy, sample overlap and compositional suitability"
+Differential abundance,"Abundance matrix, groups, study/batch",Potentially available from MAMI and PRIME,Partially supported,Verify count/relative abundance semantics and study confounding
+Confounder-adjusted analysis,"Study, country, maternal variables, technical variables","MAMI accession rows include study, country, sequencing strategy and some maternal fields; PRIME documents technical metadata",Partially supported,Assess joint completeness and study-level replication
+Country prediction ML,Adequate labels and samples across multiple studies/countries,MAMI contains country labels; PRIME has geographic metadata and API access,Partially supported,Study-aware validation feasibility; prevent country-study confounding
+Clinical outcome prediction,Reliable clinical outcome labels,No reliable outcome label established from inspected files,Unsupported pending further metadata,Do not implement unless validated labels and sample sizes are found
+Mother-infant paired analysis,Verified participant/pair IDs across body sites,MAMI lists maternal and infant body-site resources,Unsupported pending linkage audit,Verify participant-level relationships; never infer pairing from similar metadata

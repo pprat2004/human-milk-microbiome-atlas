@@ -1,0 +1,57 @@
+feature,prevalence,mean_rel_abundance_after_closure,review_flag
+Acinetobacter,0.5673758865248227,0.04694111344216207,review against negative controls; name alone does not establish contamination
+Ruminococcus_gnavus_group,0.09840425531914894,0.0005316298568126709,group/unresolved label — needs taxonomy lineage
+UCG_002,0.038120567375886524,0.00015519159485275944,group/unresolved label — needs taxonomy lineage
+Rikenellaceae_RC9_gut_group,0.008865248226950355,1.2068075342987815e-05,group/unresolved label — needs taxonomy lineage
+Ruminococcus_torques_group,0.03102836879432624,0.00030067077202683315,group/unresolved label — needs taxonomy lineage
+Sphingomonas,0.274822695035461,0.002498368131830403,review against negative controls; name alone does not establish contamination
+Christensenellaceae_R_7_group,0.028368794326241134,4.0620927996417646e-05,group/unresolved label — needs taxonomy lineage
+Clostridium_innocuum_group,0.038120567375886524,8.440603620681289e-05,group/unresolved label — needs taxonomy lineage
+Sphingobium,0.10106382978723404,0.001035357177435599,review against negative controls; name alone does not establish contamination
+UBA1819,0.015957446808510637,2.0877034614090816e-05,group/unresolved label — needs taxonomy lineage
+Lachnospiraceae_NK4A136_group,0.030141843971631204,8.397808212415684e-05,group/unresolved label — needs taxonomy lineage
+UCG_005,0.03900709219858156,5.7992330250957525e-05,group/unresolved label — needs taxonomy lineage
+Brevundimonas,0.21897163120567376,0.0029624105096079166,review against negative controls; name alone does not establish contamination
+Methylobacterium_Methylorubrum,0.6312056737588653,0.07693019683941321,review against negative controls; name alone does not establish contamination
+Pseudomonas,0.7960992907801419,0.09029118264471771,review against negative controls; name alone does not establish contamination
+Lachnospiraceae_ND3007_group,0.012411347517730497,1.0651853845651645e-05,group/unresolved label — needs taxonomy lineage
+UCG_003,0.0070921985815602835,6.573850588142973e-06,group/unresolved label — needs taxonomy lineage
+Eubacterium_siraeum_group,0.020390070921985817,0.0001225835651393836,group/unresolved label — needs taxonomy lineage
+Eubacterium_ruminantium_group,0.007978723404255319,4.083228265850843e-06,group/unresolved label — needs taxonomy lineage
+Stenotrophomonas,0.250886524822695,0.0036120309862628713,review against negative controls; name alone does not establish contamination
+Eubacterium_eligens_group,0.025709219858156027,3.678801551738902e-05,group/unresolved label — needs taxonomy lineage
+Ralstonia,0.028368794326241134,7.484407897749398e-05,review against negative controls; name alone does not establish contamination
+Burkholderia_Caballeronia_Paraburkholderia,0.07535460992907801,0.00031245457468122474,review against negative controls; name alone does not establish contamination
+Eubacterium_xylanophilum_group,0.0026595744680851063,5.649255557103958e-06,group/unresolved label — needs taxonomy lineage
+Erysipelotrichaceae_UCG_003,0.023936170212765957,5.816514184587143e-05,group/unresolved label — needs taxonomy lineage
+Eubacterium_hallii_group,0.022163120567375887,0.00010273811441745884,group/unresolved label — needs taxonomy lineage
+Eubacterium_ventriosum_group,0.014184397163120567,1.3271786846333416e-05,group/unresolved label — needs taxonomy lineage
+Massilia,0.12943262411347517,0.001408545165341274,review against negative controls; name alone does not establish contamination
+Bradyrhizobium,0.07624113475177305,0.00012000568791833421,review against negative controls; name alone does not establish contamination
+Incertae_Sedis,0.031914893617021274,4.143512290992062e-05,group/unresolved label — needs taxonomy lineage
+Ruminococcus_gauvreauii_group,0.0062056737588652485,6.579209626124216e-05,group/unresolved label — needs taxonomy lineage
+Novosphingobium,0.04964539007092199,0.00012492140334711537,review against negative controls; name alone does not establish contamination
+Lachnospiraceae_UCG_004,0.0026595744680851063,1.9970768961041405e-06,group/unresolved label — needs taxonomy lineage
+Delftia,0.1320921985815603,0.0014010104593767207,review against negative controls; name alone does not establish contamination
+Lachnospiraceae_UCG_010,0.004432624113475178,1.2637106488602583e-06,group/unresolved label — needs taxonomy lineage
+NK4A214_group,0.015957446808510637,1.0390086619713495e-05,group/unresolved label — needs taxonomy lineage
+Lachnospiraceae_FCS020_group,0.0008865248226950354,2.3183184255769117e-07,group/unresolved label — needs taxonomy lineage
+GCA_900066575,0.0026595744680851063,8.270115360104099e-07,group/unresolved label — needs taxonomy lineage
+Cupriavidus,0.4166666666666667,0.06680799768639284,review against negative controls; name alone does not establish contamination
+Eubacterium,0.0062056737588652485,7.751407109538374e-06,group/unresolved label — needs taxonomy lineage
+CAG_56,0.0026595744680851063,2.872822669080129e-06,group/unresolved label — needs taxonomy lineage
+CAG_352,0.020390070921985817,2.6282356850849295e-05,group/unresolved label — needs taxonomy lineage
+Lachnospiraceae_UCG_003,0.0026595744680851063,5.696370243353662e-06,group/unresolved label — needs taxonomy lineage
+Methanobrevibacter,0.00975177304964539,2.8492421237824598e-05,archaeal taxon — separate from bacteria if bacterial-only analysis
+Eubacterium_fissicatena_group,0.0026595744680851063,1.5385461290862238e-06,group/unresolved label — needs taxonomy lineage
+Prevotellaceae_UCG_001,0.008865248226950355,2.4698982195228032e-05,group/unresolved label — needs taxonomy lineage
+Prevotellaceae_NK3B31_group,0.007978723404255319,2.6781105930570715e-05,group/unresolved label — needs taxonomy lineage
+UCG_009,0.0026595744680851063,4.246835303088701e-07,group/unresolved label — needs taxonomy lineage
+UCG_004,0.004432624113475178,8.585767137117017e-06,group/unresolved label — needs taxonomy lineage
+Defluviitaleaceae_UCG_011,0.0017730496453900709,2.5059025439781304e-07,group/unresolved label — needs taxonomy lineage
+Erysipelotrichaceae_UCG_006,0.0008865248226950354,1.1551729291285381e-07,group/unresolved label — needs taxonomy lineage
+Coriobacteriaceae_UCG_003,0.0008865248226950354,6.807246591441809e-08,group/unresolved label — needs taxonomy lineage
+Lachnospiraceae_NK3A20_group,0.0035460992907801418,1.0322396423617813e-05,group/unresolved label — needs taxonomy lineage
+CHKCI001,0.0008865248226950354,3.1181116331948544e-07,group/unresolved label — needs taxonomy lineage
+OM60_NOR5_clade,0.0017730496453900709,1.1766699309620044e-05,group/unresolved label — needs taxonomy lineage
+PMMR1,0.05585106382978723,0.00025332034821760386,group/unresolved label — needs taxonomy lineage

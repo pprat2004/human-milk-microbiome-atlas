@@ -1,0 +1,8 @@
+candidate_target,available,usable_for_exploratory_model,why_or_limitation
+Study source,Yes,Yes,Useful only as a source/batch diagnostic; not a clinical outcome.
+Country,Yes,No for geographic generalization,Country is confounded with study; several countries occur in only one study.
+Disease/diagnosis,No supported label,No,No disease status or clinical outcome labels in the supplied MAMI milk data.
+Maternal age / gestational age,Mostly absent,No,MAMI accession file has no maternal age or gestational age values in supplied records.
+Delivery mode,Sparse,Not yet,"Only 101 of 1,128 MAMI records have this field non-missing; study confounding and small cells likely."
+Postpartum sampling days,Partial,Potential future target/covariate,"770 of 1,128 records have sampling days; distribution and study-specific missingness need inspection."
+PRIME phenotype,"Yes, all healthy in supplied milk subset",No,No class variation; all 176 breast-milk rows are marked Healthy.

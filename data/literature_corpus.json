@@ -1,0 +1,196 @@
+[
+  {
+    "doc_id": "D01",
+    "doc_type": "peer_reviewed_article",
+    "title": "The human milk bacteriome and mycobiome and their inter-kingdom interactions viewed across geography",
+    "authors": "Sun H, Finlay B, Azad MB, et al.",
+    "year": 2025,
+    "journal": "Frontiers in Nutrition",
+    "doi": "10.3389/fnut.2025.1610346",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12277152/",
+    "pmcid": "PMC12277152",
+    "access_type": "Open access (CC BY)",
+    "topics": [
+      "human milk microbiome",
+      "geography",
+      "country variation",
+      "bacteriome",
+      "mycobiome",
+      "environment",
+      "socioeconomic context",
+      "diversity"
+    ],
+    "content": "Research question and design:\nThis cross-country study profiled bacterial, archaeal and fungal components of human milk and examined how microbial composition varied across geographical and socioeconomic settings. Approximately 518 milk samples were collected from 16 countries. Bacterial and fungal profiling used 16S rRNA and ITS2 amplicon sequencing, with qPCR used to assess methanogenic archaea.\n\nFindings:\nThe study reported country-associated variation in human-milk bacterial diversity and taxonomic distribution. Staphylococcus, Streptococcus and Bifidobacterium were prevalent across countries, while their abundance varied geographically. Methanogenic sequences were detected in amplicon data more often than methanogens were detected by qPCR, illustrating that sequencing-based detection and orthogonal validation can yield different results. Fungi, mainly Candida, were detected in a minority of samples and varied across countries. Co-abundance analysis reported mostly positive bacterial relationships and negative inter-kingdom relationships.\n\nMethods and interpretation:\nThe authors modelled country alongside potential covariates including maternal age, maternal body weight, birth mode and postpartum sampling day. Country was associated with alpha and beta diversity in their analysis. The authors also note inter-individual and inter-cohort variation and methodological differences as important interpretation challenges.\n\nRelevance to this project:\nThis paper is directly relevant to geographic variation in human-milk microbiome composition and to the need to account for maternal characteristics and sample-processing differences. Its results provide literature context, not evidence that the current MAMI dataset has an independently identifiable country effect. Dataset overlap with MAMI has not been established.\n\nLimitations and cautions:\nA cross-country association does not by itself establish causality. The study includes more than bacterial taxa, whereas the uploaded MAMI abundance table contains taxon-like features and needs separate taxonomy/contamination checks. Do not transfer this paper's effect estimates directly to MAMI."
+  },
+  {
+    "doc_id": "D02",
+    "doc_type": "peer_reviewed_article",
+    "title": "Composition of the human milk microbiome in the GUSTO cohort is shaped by intrapartum antibiotic prophylaxis and breastfeeding exclusivity",
+    "authors": "Stinson LF, Pang WW, Rea A, et al.",
+    "year": 2025,
+    "journal": "mSystems",
+    "doi": "10.1128/msystems.00677-25",
+    "url": "https://journals.asm.org/doi/10.1128/msystems.00677-25",
+    "pmcid": null,
+    "access_type": "Open access",
+    "topics": [
+      "human milk microbiome",
+      "breastfeeding exclusivity",
+      "intrapartum antibiotics",
+      "maternal factors",
+      "socioeconomic factors",
+      "longitudinal sampling"
+    ],
+    "content": "Research question and design:\nThis study investigated potential determinants of human-milk microbiome composition in the GUSTO multi-ethnic Asian cohort. It profiled 266 milk samples from 208 mothers at approximately three weeks and three months postpartum using full-length 16S rRNA gene sequencing.\n\nFindings:\nThe authors reported substantial between-mother and temporal variation. Milk microbiome composition and diversity were associated with maternal, socioeconomic and breastfeeding factors. Intrapartum antibiotic prophylaxis and breastfeeding exclusivity were associated with differences in milk bacterial composition and diversity, with associations still evident at three months postpartum. The article also reports that intrapartum antibiotic exposure was related to reduced richness and Shannon diversity over time, and that several OTUs shifted in relative abundance.\n\nRelevance to this project:\nThis paper is useful background for interpreting postpartum timing, antibiotic exposure, breastfeeding practice and maternal context as potential correlates of milk microbiome variation. It also supports the importance of longitudinal sampling and appropriate covariate modelling.\n\nLimitations and cautions:\nThe cohort and sequencing approach differ from MAMI and PRIME. These published associations cannot be assumed to occur in the current files, especially because the supplied MAMI/PRIME metadata lack breastfeeding exclusivity and antibiotic-use measurements for the milk subset."
+  },
+  {
+    "doc_id": "D03",
+    "doc_type": "peer_reviewed_article",
+    "title": "Analysis of microbial composition and sharing in low-biomass human milk samples: a comparison of DNA isolation and sequencing techniques",
+    "authors": "Spreckels JE, Fernández-Pato A, Kruk M, et al.",
+    "year": 2023,
+    "journal": "ISME Communications",
+    "doi": "10.1038/s43705-023-00325-6",
+    "url": "https://www.nature.com/articles/s43705-023-00325-6",
+    "pmcid": "PMC10636111",
+    "access_type": "Open access",
+    "topics": [
+      "human milk microbiome",
+      "low biomass",
+      "DNA extraction",
+      "sequencing methods",
+      "negative controls",
+      "mother infant microbial sharing",
+      "contamination"
+    ],
+    "content": "Research question and design:\nThis methods study compared DNA isolation, bacterial enrichment and sequencing strategies for profiling microbes in low-biomass human-milk samples. It tested four DNA isolation approaches, two enrichment strategies and three sequencing methods using mock communities, milk samples and negative controls.\n\nFindings:\nThe DNeasy PowerSoil Pro and MagMAX Total Nucleic Acid Isolation kits produced consistent 16S rRNA sequencing results with low contamination in the study's comparisons. The tested enrichment approaches did not substantially improve human-read removal in metagenomic sequencing. Long-read 16S-ITS-23S sequencing did not improve taxonomic classification over 16S in the reported comparison, but provided useful resolution for examining potential bacterial sharing in a small set of mother-infant pairs. The study reported more frequent sharing between milk and infant oral/fecal samples in related pairs than unrelated pairs, while emphasizing the methodological challenges.\n\nRelevance to this project:\nHuman milk is a low-biomass matrix, so collection, extraction, sequencing and negative-control procedures can materially affect observed microbial profiles. This paper supports treating the current MAMI taxa list as requiring contamination review rather than assuming every detected genus is a true milk resident.\n\nLimitations and cautions:\nThe mother-infant sharing analysis involved only 14 pairs. The findings are method-specific and do not validate any taxon in the current MAMI or PRIME data."
+  },
+  {
+    "doc_id": "D04",
+    "doc_type": "peer_reviewed_review",
+    "title": "Contamination in Low Microbial Biomass Microbiome Studies: Issues and Recommendations",
+    "authors": "Eisenhofer R, Minich JJ, Marotz C, et al.",
+    "year": 2019,
+    "journal": "Trends in Microbiology",
+    "doi": "10.1016/j.tim.2018.11.003",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/30497919/",
+    "pmcid": null,
+    "access_type": "Abstract available; full text may require access",
+    "topics": [
+      "low biomass",
+      "microbiome contamination",
+      "negative controls",
+      "contamination controls",
+      "methods",
+      "quality assurance"
+    ],
+    "content": "Scope:\nThis review discusses contaminant DNA and cross-contamination in next-generation sequencing microbiome studies, with special emphasis on low-microbial-biomass samples.\n\nKey points:\nHigh-sensitivity sequencing can detect contaminant DNA and cross-contamination as well as genuine biological material. Contamination can enter at multiple stages, including sample collection, extraction and laboratory processing, and can confound interpretation. The authors discuss control measures and propose minimal experimental criteria in a RIDE checklist to improve study validity.\n\nRelevance to this project:\nThe current human-milk abundance data are relative-abundance-like and were provided without extraction blanks, PCR blanks, negative-control profiles or reagent metadata. This review explains why genus names alone cannot be used to declare taxa contaminants or to validate them as genuine milk microbes. Stronger contamination assessment requires controls processed alongside biological samples.\n\nLimitations and cautions:\nThis is a methodological review, not a human-milk cohort study. It provides quality-control principles rather than a list of taxa that can automatically be removed from MAMI."
+  },
+  {
+    "doc_id": "D05",
+    "doc_type": "peer_reviewed_article",
+    "title": "Reagent and laboratory contamination can critically impact sequence-based microbiome analyses",
+    "authors": "Salter SJ, Cox MJ, Turek EM, et al.",
+    "year": 2014,
+    "journal": "BMC Biology",
+    "doi": "10.1186/s12915-014-0087-z",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4228153/",
+    "pmcid": "PMC4228153",
+    "access_type": "Open access (CC BY)",
+    "topics": [
+      "reagent contamination",
+      "low biomass",
+      "negative controls",
+      "DNA extraction kits",
+      "sequencing methods",
+      "contamination"
+    ],
+    "content": "Research question and design:\nThis experimental study examined contaminating DNA in commonly used DNA extraction kits and laboratory reagents and tested how reagent contamination affects sequence-based microbiome analyses across a dilution series.\n\nFindings:\nThe authors demonstrated that contaminating DNA was present in extraction kits and other laboratory reagents, with composition varying across kit types, batches and laboratories. Contamination had a critical impact on low-biomass samples in both PCR-based 16S surveys and shotgun metagenomics. The authors strongly recommended concurrent negative-control sequencing and provided guidance for mitigating contamination effects.\n\nRelevance to this project:\nThis supports the caution applied to MAMI features such as Pseudomonas, Acinetobacter, Sphingomonas, Ralstonia and other environmental or reagent-associated genera: these names warrant review against study-specific controls, but their presence alone is not evidence of contamination. The same genera may also occur biologically, and contamination patterns vary by reagent and laboratory.\n\nLimitations and cautions:\nThis study did not analyse the MAMI or PRIME datasets. Its reported contaminants cannot be used as a universal exclusion list."
+  },
+  {
+    "doc_id": "D06",
+    "doc_type": "peer_reviewed_review",
+    "title": "Human Milk Microbiome—A Review of Scientific Reports",
+    "authors": "Dombrowska-Pali A, Wiktorczyk-Kapischke N, Chrustek A, Olszewska-Słonina D, Gospodarek-Komkowska E, Socha MW",
+    "year": 2024,
+    "journal": "Nutrients",
+    "doi": "10.3390/nu16101420",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11124344/",
+    "pmcid": "PMC11124344",
+    "access_type": "Open access (CC BY)",
+    "topics": [
+      "human milk microbiome",
+      "review",
+      "maternal factors",
+      "environmental factors",
+      "microbial communities",
+      "human milk oligosaccharides"
+    ],
+    "content": "Scope:\nThis review synthesizes scientific reports on the human milk microbiome and places microbial communities in the context of other bioactive components of milk, including human milk oligosaccharides.\n\nKey points:\nThe review describes evidence that maternal, perinatal and environmental-cultural factors may influence breast-milk microbiome modulation. It discusses the relationship between milk oligosaccharides and commensal microorganisms in the infant gut, including genera such as Bifidobacterium, Lactobacillus and Bacteroides.\n\nRelevance to this project:\nThis review provides broad scientific context for the project’s interest in maternal, perinatal and environmental factors. It can guide literature questions and help explain why milk microbiome composition should be interpreted within the wider biological system of human milk and infant development.\n\nLimitations and cautions:\nA narrative/scientific review summarizes heterogeneous studies. It does not supply a common effect estimate or validate a predictive model for the current MAMI/PRIME files."
+  },
+  {
+    "doc_id": "D07",
+    "doc_type": "peer_reviewed_article",
+    "title": "Exclusive breastfeeding is associated with the gut microbiome maturation in infants according to delivery mode",
+    "authors": "Naspolini NF, Schüroff PA, Vanzele PAR, et al.",
+    "year": 2025,
+    "journal": "Gut Microbes",
+    "doi": "10.1080/19490976.2025.2493900",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12005435/",
+    "pmcid": "PMC12005435",
+    "access_type": "Open access",
+    "topics": [
+      "exclusive breastfeeding",
+      "infant gut microbiome",
+      "delivery mode",
+      "microbiome maturation",
+      "feeding behaviour",
+      "infant outcomes"
+    ],
+    "content": "Research question and design:\nThis study examined whether exclusive breastfeeding was associated with infant gut microbiome assembly and function in relation to delivery mode. It used whole-metagenome sequencing in 525 Brazilian infants aged approximately three to nine months.\n\nFindings:\nThe authors reported that exclusive breastfeeding was associated with differences in infant gut microbial composition and functional pathways, with patterns differing by delivery mode. The study concluded that exclusive breastfeeding was related to infant gut microbiome maturation and may attenuate some delivery-mode-associated differences.\n\nRelevance to this project:\nThe paper provides background on the distinction between the human-milk microbiome and the infant gut microbiome, and why infant feeding behaviour and delivery mode may be biologically relevant when both milk and infant stool data are available.\n\nLimitations and cautions:\nThis is an infant stool microbiome study, not a human-milk microbiome analysis. It does not provide feeding or infant stool outcomes for the current MAMI/PRIME files. Association does not prove that milk taxa caused infant gut changes."
+  },
+  {
+    "doc_id": "D08",
+    "doc_type": "peer_reviewed_article",
+    "title": "Influence of feeding habit and duration on infant gut microbiome - a 6 month pilot study",
+    "authors": "Patangia DV et al.",
+    "year": 2025,
+    "journal": "Beneficial Microbes",
+    "doi": "10.1163/18762891-bja00075",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/40312036/",
+    "pmcid": null,
+    "access_type": "Abstract available",
+    "topics": [
+      "feeding duration",
+      "exclusive breastfeeding",
+      "formula feeding",
+      "infant gut microbiome",
+      "maternal milk",
+      "pilot study"
+    ],
+    "content": "Research question and design:\nThis six-month pilot study compared infant gut microbiome profiles across breastfeeding-duration and formula-feeding groups. It included 23 infants, 88 infant stool samples and 64 corresponding maternal milk samples. Metagenomic shotgun sequencing was used to examine microbial composition.\n\nFindings:\nThe authors reported that breast-milk samples contained genera previously described as core milk bacteria, including Staphylococcus, Streptococcus, Corynebacterium, Cutibacterium, Rothia and Pseudomonas. The exclusively breastfed infant group had the lowest alpha diversity and a distinct composition compared with the formula-fed group in the pilot cohort.\n\nRelevance to this project:\nThis is directly relevant background for the relationship between feeding pattern/duration, maternal milk and infant gut microbiome research. It can inform the RAG assistant’s explanations of why feeding labels and infant sample type must be defined precisely.\n\nLimitations and cautions:\nThe sample is small and exploratory. The paper’s infant stool findings must not be presented as findings about the MAMI human-milk samples. Its results should not be generalized without validation."
+  },
+  {
+    "doc_id": "P01",
+    "doc_type": "internal_project_note",
+    "title": "Current MAMI and PRIME dataset findings — exploratory project record",
+    "authors": "Project analysis record (generated from supplied files)",
+    "year": 2026,
+    "journal": "Internal project note — not peer reviewed",
+    "doi": null,
+    "url": null,
+    "pmcid": null,
+    "access_type": "Internal analysis summary",
+    "topics": [
+      "MAMI",
+      "PRIME",
+      "project findings",
+      "dataset audit",
+      "study confounding",
+      "diversity",
+      "feature associations",
+      "machine learning"
+    ],
+    "content": "Dataset scope:\nMAMI supplied files contain 1,128 human-milk samples, with one-to-one matching between Run IDs in the accession metadata and abundance matrix. The accession metadata contains seven studies across six countries. The abundance matrix has 580 feature columns, of which 346 were nonzero in at least one sample. The working exploratory analysis excluded explicit Mammalia, Chloroplast and Mitochondria markers, leaving 344 operational feature labels. The abundance values appear relative-abundance-like rather than raw counts.\n\nPRIME supplied files contain 176 breast-milk metadata rows from two projects. All 176 supplied milk rows are labelled Healthy. The uploaded PRIME files do not include an abundance matrix. Age, BMI and antibiotic-use fields are missing in these milk rows.\n\nExploratory MAMI results:\nThe earlier exploratory analysis reported differences in alpha diversity and Bray-Curtis community composition across the seven study groups. The Bray-Curtis PERMANOVA result was pseudo-F approximately 90.43, R-squared approximately 0.326, permutation p approximately 0.001. A later compositional CLR/Aitchison analysis also detected study-associated structure across prevalence filters and zero-replacement settings. These analyses are exploratory and should be rechecked with a fully validated pipeline before publication.\n\nInterpretation limits:\nCountry is confounded with study in MAMI. Study-level differences cannot be labelled pure country effects. No unique mother ID is available in the MAMI abundance file: the subject field is the constant text 'mother'. The supplied MAMI/PRIME records do not contain neonatal feeding behaviour labels, detailed socioeconomic or environmental variables, or infant growth outcomes. The study classifier predicts study identity only, not clinical outcomes.\n\nMachine-learning diagnostic:\nA five-fold sample-level classifier predicted MAMI study identity, with logistic-regression accuracy approximately 0.949 and balanced accuracy approximately 0.910 in that exploratory setup. This is a source/batch diagnostic, not a clinical or neonatal feeding prediction model. Participant-independent validation is not possible without unique mother IDs.\n\nHow to use this note:\nTreat these findings as internal project outputs, not peer-reviewed evidence. Do not let the RAG system cite this note as a published study or claim that it demonstrates causality, independent geographic effects, or clinical prediction."
+  }
+]

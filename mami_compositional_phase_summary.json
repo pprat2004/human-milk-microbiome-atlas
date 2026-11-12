@@ -1,0 +1,252 @@
+{
+  "n_samples": 1128,
+  "n_features_base": 344,
+  "n_features_prevalence_10pct": 54,
+  "zero_replacement_deltas": [
+    1e-06,
+    1e-05,
+    0.0001
+  ],
+  "community_tests": [
+    {
+      "minimum_prevalence": 0.05,
+      "n_features": 100,
+      "zero_replacement_delta": 1e-06,
+      "aitchison_permanova_F": 69.9984386943561,
+      "aitchison_permanova_R2": 0.27254586977973055,
+      "aitchison_permanova_p": 0.001,
+      "aitchison_permdisp_F": 90.67994786537163,
+      "aitchison_permdisp_p": 0.001
+    },
+    {
+      "minimum_prevalence": 0.05,
+      "n_features": 100,
+      "zero_replacement_delta": 1e-05,
+      "aitchison_permanova_F": 75.65556860702299,
+      "aitchison_permanova_R2": 0.2882238755534652,
+      "aitchison_permanova_p": 0.001,
+      "aitchison_permdisp_F": 77.2623007903003,
+      "aitchison_permdisp_p": 0.001
+    },
+    {
+      "minimum_prevalence": 0.05,
+      "n_features": 100,
+      "zero_replacement_delta": 0.0001,
+      "aitchison_permanova_F": 83.4014376185351,
+      "aitchison_permanova_R2": 0.30862585641649254,
+      "aitchison_permanova_p": 0.001,
+      "aitchison_permdisp_F": 65.5294196412641,
+      "aitchison_permdisp_p": 0.001
+    },
+    {
+      "minimum_prevalence": 0.1,
+      "n_features": 54,
+      "zero_replacement_delta": 1e-06,
+      "aitchison_permanova_F": 77.67045931664107,
+      "aitchison_permanova_R2": 0.2936459191699555,
+      "aitchison_permanova_p": 0.001,
+      "aitchison_permdisp_F": 44.808120276669655,
+      "aitchison_permdisp_p": 0.001
+    },
+    {
+      "minimum_prevalence": 0.1,
+      "n_features": 54,
+      "zero_replacement_delta": 1e-05,
+      "aitchison_permanova_F": 84.02626794014071,
+      "aitchison_permanova_R2": 0.3102207473727446,
+      "aitchison_permanova_p": 0.001,
+      "aitchison_permdisp_F": 39.25823347144459,
+      "aitchison_permdisp_p": 0.001
+    },
+    {
+      "minimum_prevalence": 0.1,
+      "n_features": 54,
+      "zero_replacement_delta": 0.0001,
+      "aitchison_permanova_F": 92.17655656586606,
+      "aitchison_permanova_R2": 0.33037021232174807,
+      "aitchison_permanova_p": 0.001,
+      "aitchison_permdisp_F": 36.07277873064282,
+      "aitchison_permdisp_p": 0.001
+    },
+    {
+      "minimum_prevalence": 0.2,
+      "n_features": 27,
+      "zero_replacement_delta": 1e-06,
+      "aitchison_permanova_F": 96.22401610365714,
+      "aitchison_permanova_R2": 0.3399453018798119,
+      "aitchison_permanova_p": 0.001,
+      "aitchison_permdisp_F": 27.011216130762143,
+      "aitchison_permdisp_p": 0.001
+    },
+    {
+      "minimum_prevalence": 0.2,
+      "n_features": 27,
+      "zero_replacement_delta": 1e-05,
+      "aitchison_permanova_F": 102.94407702761784,
+      "aitchison_permanova_R2": 0.35525224999212024,
+      "aitchison_permanova_p": 0.001,
+      "aitchison_permdisp_F": 23.78815444956379,
+      "aitchison_permdisp_p": 0.001
+    },
+    {
+      "minimum_prevalence": 0.2,
+      "n_features": 27,
+      "zero_replacement_delta": 0.0001,
+      "aitchison_permanova_F": 110.20949532987252,
+      "aitchison_permanova_R2": 0.3710222388665395,
+      "aitchison_permanova_p": 0.001,
+      "aitchison_permdisp_F": 17.60906261475691,
+      "aitchison_permdisp_p": 0.001
+    }
+  ],
+  "feature_test_counts": {
+    "1e-06": 54,
+    "1e-05": 54,
+    "0.0001": 54
+  },
+  "significant_at_all_three_deltas": 54,
+  "highest_CLR_study_stable_and_significant_all_three": 49,
+  "top_features_delta_1e-5": [
+    {
+      "feature": "Rhodococcus",
+      "prevalence": 0.5079787234042553,
+      "clr_kruskal_H": 861.9571020229755,
+      "epsilon_squared": 0.763565657469202,
+      "q_value_BH": 3.3937819481471037e-181,
+      "study_with_highest_median_CLR": "Grant-BeurmannS_2022"
+    },
+    {
+      "feature": "Methylobacterium_Methylorubrum",
+      "prevalence": 0.6312056737588653,
+      "clr_kruskal_H": 775.0798930287646,
+      "epsilon_squared": 0.6860659170640183,
+      "q_value_BH": 1.0063468907989462e-162,
+      "study_with_highest_median_CLR": "Grant-BeurmannS_2022"
+    },
+    {
+      "feature": "Cupriavidus",
+      "prevalence": 0.4166666666666667,
+      "clr_kruskal_H": 566.5474424739183,
+      "epsilon_squared": 0.5000423215646015,
+      "q_value_BH": 6.878714925442105e-118,
+      "study_with_highest_median_CLR": "Grant-BeurmannS_2022"
+    },
+    {
+      "feature": "Acinetobacter",
+      "prevalence": 0.5673758865248227,
+      "clr_kruskal_H": 465.73292290228545,
+      "epsilon_squared": 0.4101096546853572,
+      "q_value_BH": 2.7203724865161658e-96,
+      "study_with_highest_median_CLR": "WuY_2021"
+    },
+    {
+      "feature": "Marinilutecoccus",
+      "prevalence": 0.24379432624113476,
+      "clr_kruskal_H": 419.1675747534014,
+      "epsilon_squared": 0.3685705394767185,
+      "q_value_BH": 2.2812404492947664e-86,
+      "study_with_highest_median_CLR": "AsnicarF_2017"
+    },
+    {
+      "feature": "Staphylococcus",
+      "prevalence": 0.9131205673758865,
+      "clr_kruskal_H": 399.91853825439046,
+      "epsilon_squared": 0.3513992312706427,
+      "q_value_BH": 2.6195830120912995e-82,
+      "study_with_highest_median_CLR": "RamaniS_2018"
+    },
+    {
+      "feature": "Streptococcus",
+      "prevalence": 0.9547872340425532,
+      "clr_kruskal_H": 353.14692039856754,
+      "epsilon_squared": 0.3096761109710683,
+      "q_value_BH": 2.5127900094370816e-72,
+      "study_with_highest_median_CLR": "AsnicarF_2017"
+    },
+    {
+      "feature": "Brevundimonas",
+      "prevalence": 0.21897163120567376,
+      "clr_kruskal_H": 350.62478347746605,
+      "epsilon_squared": 0.30742621184430513,
+      "q_value_BH": 7.649782368476889e-72,
+      "study_with_highest_median_CLR": "LundgrenSN_2018"
+    },
+    {
+      "feature": "Escherichia",
+      "prevalence": 0.24911347517730498,
+      "clr_kruskal_H": 349.12397307266207,
+      "epsilon_squared": 0.3060873979238734,
+      "q_value_BH": 1.4278704793947757e-71,
+      "study_with_highest_median_CLR": "WuY_2021"
+    },
+    {
+      "feature": "Bacteroides",
+      "prevalence": 0.350177304964539,
+      "clr_kruskal_H": 323.6239544428955,
+      "epsilon_squared": 0.2833398344718069,
+      "q_value_BH": 3.8080622171229305e-66,
+      "study_with_highest_median_CLR": "KhineWWT_2020"
+    },
+    {
+      "feature": "Cutibacterium",
+      "prevalence": 0.5079787234042553,
+      "clr_kruskal_H": 314.90450717150463,
+      "epsilon_squared": 0.27556155858296577,
+      "q_value_BH": 2.5653127604347376e-64,
+      "study_with_highest_median_CLR": "WilliamsJE_2019"
+    },
+    {
+      "feature": "Caulobacter",
+      "prevalence": 0.11081560283687943,
+      "clr_kruskal_H": 306.199174270848,
+      "epsilon_squared": 0.2677958735689991,
+      "q_value_BH": 1.7278175545123926e-62,
+      "study_with_highest_median_CLR": "LundgrenSN_2018"
+    },
+    {
+      "feature": "Paracoccus",
+      "prevalence": 0.20833333333333334,
+      "clr_kruskal_H": 298.71585571079135,
+      "epsilon_squared": 0.26112029947439014,
+      "q_value_BH": 6.402777193063654e-61,
+      "study_with_highest_median_CLR": "RamaniS_2018"
+    },
+    {
+      "feature": "Massilia",
+      "prevalence": 0.12943262411347517,
+      "clr_kruskal_H": 245.17069532346338,
+      "epsilon_squared": 0.2133547683527773,
+      "q_value_BH": 1.7023861523420713e-49,
+      "study_with_highest_median_CLR": "LundgrenSN_2018"
+    },
+    {
+      "feature": "Allorhizobium_Neorhizobium_Pararhizobium_Rhizobium",
+      "prevalence": 0.16666666666666666,
+      "clr_kruskal_H": 237.8918446482561,
+      "epsilon_squared": 0.2068615920145014,
+      "q_value_BH": 5.697914877620812e-48,
+      "study_with_highest_median_CLR": "LundgrenSN_2018"
+    }
+  ],
+  "rank_stability": [
+    {
+      "delta_1": 1e-06,
+      "delta_2": 1e-05,
+      "spearman_rho_H": 0.9818562988374308,
+      "p_value": 3.164115515173587e-39
+    },
+    {
+      "delta_1": 1e-06,
+      "delta_2": 0.0001,
+      "spearman_rho_H": 0.8571374118543928,
+      "p_value": 1.329741509242673e-16
+    },
+    {
+      "delta_1": 1e-05,
+      "delta_2": 0.0001,
+      "spearman_rho_H": 0.9225462168858394,
+      "p_value": 3.727100258477844e-23
+    }
+  ],
+  "previous_overlap": "Top-20 feature overlap with the previous relative-abundance test: 14/20 common features: Acinetobacter, Allorhizobium_Neorhizobium_Pararhizobium_Rhizobium, Bacteroides, Brevundimonas, Caulobacter, Cupriavidus, Enhydrobacter, Escherichia, Marinilutecoccus, Massilia, Methylobacterium_Methylorubrum, Paracoccus, Rhodococcus, Staphylococcus"
+}

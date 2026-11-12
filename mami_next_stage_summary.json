@@ -1,0 +1,182 @@
+{
+  "n_samples": 1128,
+  "n_features_original": 580,
+  "n_nonzero_features_before_host_organelle_filter": 346,
+  "n_features_base_filtered": 344,
+  "alpha_diversity_mean": {
+    "richness": 21.777482269503547,
+    "shannon": 1.449104861951322,
+    "simpson_1_minus_D": 0.6189353358098298
+  },
+  "alpha_diversity_median": {
+    "richness": 17.0,
+    "shannon": 1.5143047519024402,
+    "simpson_1_minus_D": 0.6921115559006215
+  },
+  "alpha_group_tests": [
+    {
+      "metric": "Observed_richness",
+      "H": 353.67093113907987,
+      "p": 2.5139323543621488e-73
+    },
+    {
+      "metric": "Shannon",
+      "H": 194.62475074604782,
+      "p": 2.642431079313207e-39
+    },
+    {
+      "metric": "Simpson_1_minus_D",
+      "H": 258.68398034210816,
+      "p": 5.710204381058965e-53
+    },
+    {
+      "metric": "Pielou_evenness",
+      "H": 372.57306394880715,
+      "p": 2.1917074901012617e-77
+    }
+  ],
+  "permanova_base_999_permutations_from_stage1": {
+    "pseudo_F": 90.434985,
+    "R2": 0.326164,
+    "p_value": 0.001,
+    "permutations": 999
+  },
+  "permdisp_bias_adjusted": {
+    "pseudo_F": 36.93557478110083,
+    "p_value": 0.001,
+    "permutations": 999,
+    "lingoes_constant": 5.497951358025143
+  },
+  "n_feature_tests_min_prevalence_10pct": 54,
+  "n_features_BH_q_lt_0_05": 54,
+  "top_feature_associations": [
+    {
+      "feature": "Rhodococcus",
+      "prevalence": 0.5079787234042553,
+      "kruskal_H": 888.5291312220842,
+      "p_value": 1.1338591656758086e-188,
+      "q_value_BH": 6.122839494649367e-187,
+      "study_with_highest_median": "Grant-BeurmannS_2022"
+    },
+    {
+      "feature": "Methylobacterium_Methylorubrum",
+      "prevalence": 0.6312056737588653,
+      "kruskal_H": 755.1918339754702,
+      "p_value": 7.370581439487464e-160,
+      "q_value_BH": 1.9900569886616155e-158,
+      "study_with_highest_median": "Grant-BeurmannS_2022"
+    },
+    {
+      "feature": "Caulobacter",
+      "prevalence": 0.11081560283687943,
+      "kruskal_H": 701.4564910637429,
+      "p_value": 2.9651476512683236e-148,
+      "q_value_BH": 5.337265772282983e-147,
+      "study_with_highest_median": "LundgrenSN_2018"
+    },
+    {
+      "feature": "Cupriavidus",
+      "prevalence": 0.4166666666666667,
+      "kruskal_H": 582.9413835397086,
+      "p_value": 1.1143630772137113e-122,
+      "q_value_BH": 1.5043901542385104e-121,
+      "study_with_highest_median": "Grant-BeurmannS_2022"
+    },
+    {
+      "feature": "Allorhizobium_Neorhizobium_Pararhizobium_Rhizobium",
+      "prevalence": 0.16666666666666666,
+      "kruskal_H": 570.3387990300022,
+      "p_value": 5.817348406461709e-120,
+      "q_value_BH": 6.282736278978646e-119,
+      "study_with_highest_median": "LundgrenSN_2018"
+    },
+    {
+      "feature": "Massilia",
+      "prevalence": 0.12943262411347517,
+      "kruskal_H": 563.6761676116523,
+      "p_value": 1.5897418920320983e-118,
+      "q_value_BH": 1.4307677028288885e-117,
+      "study_with_highest_median": "LundgrenSN_2018"
+    },
+    {
+      "feature": "Escherichia",
+      "prevalence": 0.24911347517730498,
+      "kruskal_H": 558.562152191082,
+      "p_value": 2.0134128536841526e-117,
+      "q_value_BH": 1.5532042014134893e-116,
+      "study_with_highest_median": "WuY_2021"
+    },
+    {
+      "feature": "Brevundimonas",
+      "prevalence": 0.21897163120567376,
+      "kruskal_H": 555.370890772749,
+      "p_value": 9.816293516403322e-117,
+      "q_value_BH": 6.625998123572243e-116,
+      "study_with_highest_median": "LundgrenSN_2018"
+    },
+    {
+      "feature": "Acinetobacter",
+      "prevalence": 0.5673758865248227,
+      "kruskal_H": 551.859220799416,
+      "p_value": 5.610573632520041e-116,
+      "q_value_BH": 3.3663441795120243e-115,
+      "study_with_highest_median": "WuY_2021"
+    },
+    {
+      "feature": "Paracoccus",
+      "prevalence": 0.20833333333333334,
+      "kruskal_H": 475.18382253161775,
+      "p_value": 1.8596578944115485e-99,
+      "q_value_BH": 1.0042152629822362e-98,
+      "study_with_highest_median": "RamaniS_2018"
+    }
+  ],
+  "sensitivity": [
+    {
+      "prevalence_threshold": 0.0,
+      "n_features": 344,
+      "mean_richness": 21.777482269503547,
+      "mean_shannon": 1.449104861951322,
+      "permanova_F": 90.43498543107441,
+      "R2": 0.3261641497091348,
+      "permanova_p_199perm": 0.005
+    },
+    {
+      "prevalence_threshold": 0.01,
+      "n_features": 203,
+      "mean_richness": 21.217198581560282,
+      "mean_shannon": 1.4426361399988785,
+      "permanova_F": 90.9644829426332,
+      "R2": 0.3274485169180321,
+      "permanova_p_199perm": 0.005
+    },
+    {
+      "prevalence_threshold": 0.05,
+      "n_features": 100,
+      "mean_richness": 18.574468085106382,
+      "mean_shannon": 1.4084451842676557,
+      "permanova_F": 91.80140776752533,
+      "R2": 0.32946863483292477,
+      "permanova_p_199perm": 0.005
+    },
+    {
+      "prevalence_threshold": 0.1,
+      "n_features": 54,
+      "mean_richness": 15.35904255319149,
+      "mean_shannon": 1.3542178214290728,
+      "permanova_F": 93.25370658206974,
+      "R2": 0.3329454537069473,
+      "permanova_p_199perm": 0.005
+    },
+    {
+      "prevalence_threshold": 0.2,
+      "n_features": 27,
+      "mean_richness": 11.794326241134751,
+      "mean_shannon": 1.2689583535904272,
+      "permanova_F": 95.82630459462798,
+      "R2": 0.33901658297266446,
+      "permanova_p_199perm": 0.005
+    }
+  ],
+  "interpretation": "Study-associated differences only; not a clean country effect. PERMANOVA and PERMDISP both significant; unequal group sizes and dispersion heterogeneity require caution."
+}

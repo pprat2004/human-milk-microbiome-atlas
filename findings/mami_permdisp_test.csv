@@ -1,0 +1,2 @@
+method,pseudo_F,permutation_p_value,permutations,lingoes_constant
+Bray-Curtis PERMDISP-style test with Lingoes correction and sqrt(n/(n-1)) small-sample bias adjustment,36.93557478110083,0.001,999,5.497951358025143

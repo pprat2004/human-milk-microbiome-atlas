@@ -1,0 +1,18 @@
+RAG MODULE QA CHECK (Gemini edition)
+====================================
+
+Static checks
+- dashboard_app.py, rag_engine.py, build_rag_index.py, evaluate_rag_retrieval.py, test_rag_corpus.py: compile OK
+- Corpus test: 9 documents (8 papers + 1 internal project note), 11 chunks, unique IDs: PASS
+
+Pipeline logic (tested against a stand-in Gemini client, no network):
+- Index build with gemini-embedding-2 (title/text inlined, 768 dimensions, L2-normalised): PASS
+- Index build with gemini-embedding-001 (task_type RETRIEVAL_DOCUMENT): PASS
+- Query embedding, cosine retrieval, grounded answer call through generate_content: PASS
+- Missing-key error handling: PASS
+
+NOT yet verified (needs your Gemini API key and internet)
+- Real embedding and generation calls, answer quality and faithfulness
+- Streamlit UI launch (Streamlit and the Google Gen AI SDK were not installable in the build environment)
+
+Next steps: add the key, build the index, run `python evaluate_rag_retrieval.py`, then spot-check answers against sources.

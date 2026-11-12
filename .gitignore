@@ -1,0 +1,6 @@
+.env
+__pycache__/
+*.pyc
+rag_store/
+rag/retrieval_evaluation_results.json
+.streamlit/secrets.toml
